@@ -20,14 +20,18 @@
 
 .poster{
     max-height: 250px;
-  
+    cursor:pointer;
     margin-right: 10px;
 
 }
 
 .smallPoster{
     max-height: 100px;
+    cursor:pointer;
     
 
 }
-
+/* .poster element when it is hovered over */
+.poster:hover{
+    transform:scale(1.1)
+}
